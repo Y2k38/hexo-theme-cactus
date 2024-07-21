@@ -15,9 +15,9 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
+  # about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  # projects: https://github.com/Y2k38
 
 
 # Links to your social media accounts.
@@ -26,27 +26,27 @@ nav:
 # only 'mail' is an exception.
 # You can optionally add a 'label' key to set the title attribute on the link. 
 # 'icon' value will be used as title when 'label' is missing.
-social_links:
-  -
-    icon: github
-    link: http://github.com/probberechts/cactus-dark
-  -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
-  -
-    icon: mail
-    link: mailto:name@email.com
-  -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+# social_links:
+#   -
+#     icon: github
+#     link: http://github.com/probberechts/cactus-dark
+#   -
+#     icon: twitter
+#     link: /
+#   -
+#     icon: facebook
+#     link: /
+#   -
+#     icon: mail
+#     link: mailto:name@email.com
+#   -
+#     icon: mastodon
+#     label: mastodon.social
+#     link: https://mastodon.social/@alice
+#   -
+#     icon: mastodon
+#     label: fosstodon.org
+#     link: https://fosstodon.org/@alice
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -59,7 +59,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 20
   sort_updated: false
 
 # Customize the archive view.
@@ -79,7 +79,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2019
   end_year:
 
 # Customize the 404 page
